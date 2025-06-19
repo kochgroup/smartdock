@@ -1,0 +1,12 @@
+deepchem==2.8.0
+matplotlib==3.5.2
+tqdm==4.66.4
+chembl_webresource_client==0.10.9
+ipykernel==6.29.5
+seaborn==0.13.2
+rdkit==2023.9.5
+numpy==1.23.5
+pandas==1.5.3
+datamol==0.12.5
+pycaret==3.3.2
+xgboost==2.0.0

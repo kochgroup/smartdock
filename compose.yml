@@ -1,0 +1,22 @@
+name: padif_app 
+
+services:
+  padif_app:
+    build:
+      dockerfile: Dockerfile # Name of your Dockerfile
+    volumes:
+      - /appl/ccdc/:/mnt/ccdc
+      - ./requirements.txt:/code/requirements.txt
+      - ./.src:/code/src
+      - ./data:/code/work
+    container_name: padif_app
+    stdin_open: true  # Keep the standard input open
+    tty: true         # Allocate a pseudo-TTY
+    environment:
+      - CSDHOME=/mnt/ccdc/CSDS2020/CSD_2020
+      - GOLD_DIR=/mnt/ccdc/CSDS2020/Discovery_2020/GOLD
+      - CCDC_MOGUL_DATA=/mnt/ccdc/CSDS2020/CSD_2020/data
+      - CCDC_MOGUL_DATA=/mnt/ccdc/CSDS2020/CSD_2020/data
+      - CCDC_MOGUL_INITIALISATION_FILE=/mnt/ccdc/CSDS2020/CSD_2020/bin/mogul.ini
+    ports:
+      - "8080:8080"  # Map the necessary ports

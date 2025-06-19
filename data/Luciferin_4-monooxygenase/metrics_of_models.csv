@@ -1,0 +1,16 @@
+BA,model,NEF1%,NEF25%,type,class
+0.5203,CHEMPLP_scoring,0.2857,0.2857,scaffold,scoring
+1.0,rf,1.0,1.0,scaffold,model
+1.0,svm,1.0,1.0,scaffold,model
+0.9992,xgboost,0.8571,1.0,scaffold,model
+0.9992,mlp,1.0,1.0,scaffold,model
+0.5918,CHEMPLP_scoring,0.2857,0.4143,fingerprint,scoring
+1.0,rf,1.0,1.0,fingerprint,model
+1.0,svm,1.0,1.0,fingerprint,model
+0.9992,xgboost,1.0,1.0,fingerprint,model
+1.0,mlp,1.0,1.0,fingerprint,model
+0.4901,CHEMPLP_scoring,0.0,0.2319,random,scoring
+1.0,rf,1.0,1.0,random,model
+1.0,svm,1.0,1.0,random,model
+0.9976,xgboost,1.0,1.0,random,model
+1.0,mlp,1.0,1.0,random,model
