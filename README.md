@@ -50,7 +50,7 @@ You must edit the **`compose.yml`** file to match your local CCDC installation p
 
 Edit the **`padif_start.sh`** file to use your actual CCDC license key.
 
-  * **Action:** Replace the placeholder key `96DAD1-E0657B-44F7B2-E17D11-EB9203-EEBCCE` with your valid CCDC license key.
+  * **Action:** Replace the placeholder key `YOUR_CCDC_LICENSE_KEY_HERE` with your valid CCDC license key.
 
     ```bash
     # Replace the key below with your valid CCDC license key
